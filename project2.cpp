@@ -1,7 +1,6 @@
 #include<iostream>
 #include<vector>
-// #include"C:\Program Files\MySQL\MySQL Server 8.0\include\mysql.h"
-// #include"C:\Program Files\MySQL\Connector C++ 8.0\include\jdbc\mysql_connection.h"
+// #include"C:\Program Files\MySQL\MySQL Server 8.0\include\mysql.h" //library to connect to the mysql database server
 
 using namespace std;
 class student
