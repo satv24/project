@@ -15,7 +15,8 @@ protected:
     int password;
 
 public:
-    student(){
+    student()
+    {
         name=" ";
         mobno=0;
         cgpa=0;
@@ -27,7 +28,8 @@ public:
 
 };
 
-void student:: registeration(){
+void student:: registeration()
+{
     cout<<"\t\t1. Enter the name " ;
     cin>>name;
     cout<<"\t\t2. Enter branch ";
@@ -40,7 +42,8 @@ void student:: registeration(){
     
 }
 
-void student::login(){
+void student::login()
+{
     cout<<"\t\t 1. Enter user id ";
     cin>>userid;
     cout<<"\t\t 2. Enter the password ";
@@ -48,14 +51,13 @@ void student::login(){
     cout<<"Logged in successfully"<<endl;
     cout<<"\n";
 }
-void student:: update(){
+void student:: update()
+{
     cout<<"\t\t1. Enter updated branch ";
     cin>>branch;
     cout<<"\t\t2. Enter updated cgpa ";
     cin>>cgpa;
     cout<<"Updated successfully "<<endl;
-    
-
 }
 
 int main(){
